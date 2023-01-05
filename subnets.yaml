@@ -23,9 +23,6 @@ spec:
       - name: CIDR
         type: string
         jsonPath: .spec.cidrBlock
-      - name: Private
-        type: boolean
-        jsonPath: .spec.private
       - name: NAT
         type: boolean
         jsonPath: .spec.natOutgoing
